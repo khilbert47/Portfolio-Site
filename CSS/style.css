@@ -7,6 +7,8 @@ alternate color (muted green):99B37B;
 alternate color(blue):3094B3;
 */
 
+body {
+	background-color: #D8E6E6;
 	font-family: roboto slab;
 	font-family: scada;
 .job-title {
