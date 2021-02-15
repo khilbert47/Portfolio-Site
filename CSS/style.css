@@ -10,7 +10,31 @@ alternate color(blue):3094B3;
 body {
 	background-color: #D8E6E6;
 	font-family: roboto slab;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.6;
+}
+
+h1,h2, h3 {
 	font-family: scada;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 2.5em;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 1.75em;
+	font-weight: 400;
+}
+
 .job-title {
 	font-size: .5em;
 	font-style: italic;
@@ -22,13 +46,19 @@ body {
 	border-radius: 3px;
 	border-bottom: 2px solid #3094B3;
 	transition: 0.2s opacity;
+}
+
 .button:hover {
 	opacity: 0.8
 	text-decoration: none;
 	color: white;
+}
+
 .button:active {
 	opacity: 0.8
 	text-decoration: none;
+}
+
 .resume-button {
 	color: #D8E6E6;
 	background-color: #99B37B;
@@ -37,6 +67,8 @@ body {
 	border-radius: 3px;
 	border-bottom: 2px solid #3094B3;
 	transition: 0.2s opacity;
+}
+
 .email-button {
 	color: #D9603F;
 	background-color: #E0A038;
@@ -45,6 +77,12 @@ body {
 	border-radius: 3px;
 	border-bottom: 2px solid #D9603F;
 	transition: 0.2s opacity;
+}
+
 .email-button:hover
 :active {
 	color: white;
+}
+
+
+
