@@ -45,6 +45,22 @@ img {
 }
 
 
+a:visited {
+	color: #3094B3;
+	text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+	color: #E0A038;
+	text-decoration: none;
+}
+
+a:active {
+	color: #E0A038;
+	text-decoration: none;
+}
+
 .button {
 	color: #D8E6E6;
 	background-color: #99B37B;
