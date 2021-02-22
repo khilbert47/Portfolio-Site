@@ -204,6 +204,9 @@ nav > ul > li > a:active {
 	margin-top: 8px;
 	margin-bottom: 5px;
 }
+.look {
+	margin-bottom: 0;
+}
 #app-project h2 {
 	text-align: center;
 	padding-top: 50px;
