@@ -43,6 +43,7 @@ h3 {
 .job-title {
 	font-size: .5em;
 	font-style: italic;
+	padding-bottom: 10px;
 }
 
 img {
