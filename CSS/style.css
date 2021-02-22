@@ -150,6 +150,9 @@ header {
 	position: fixed;
 	width: 100%;
 }
+main {
+	padding-top: 200px;
+}
 nav {
 	display: inline-block;
 	width: 100%;
