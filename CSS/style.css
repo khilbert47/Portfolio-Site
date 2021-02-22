@@ -200,6 +200,10 @@ nav > ul > li > a:active {
 	margin-bottom: 8px
 }
 
+.call {
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
 #app-project h2 {
 	text-align: center;
 	padding-top: 50px;
