@@ -118,6 +118,35 @@ a:active {
 }
 
 
+nav {
+	display: inline-block;
+	width: 100%;
+}
+
+nav > ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav >ul > li {
+	display: inline-block;
+}
+
+nav > ul > li > a {
+	padding: 0 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #4a4a4a;
+}
+nav > ul > li > a:visited {
+	text-decoration: none;
+}
+nav > ul > li > a:hover {
+	text-decoration: none;
+}
+nav > ul > li > a:active {
+	text-decoration: none;
+}
 }
 
 .email-button {
