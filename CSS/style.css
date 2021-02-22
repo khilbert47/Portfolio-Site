@@ -221,3 +221,18 @@ nav > ul > li > a:active {
 	padding-top: 50px;
 }
 
+.project-explained h3 {
+	margin-bottom: 5px;
+}
+
+.project-explained h5{
+	margin-top: 10px
+}
+.project-explained > ul > li {
+	text-align: left;
+}
+
+.project-explained > ul {
+	text-align: center;
+}
+
