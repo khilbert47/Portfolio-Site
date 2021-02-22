@@ -264,3 +264,6 @@ nav > ul > li > a:active {
 	margin: 25px 0;
 }
 
+.center {
+	text-align: center;
+}
