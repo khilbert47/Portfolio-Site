@@ -228,6 +228,16 @@ nav > ul > li > a:active {
 .project-explained h5{
 	margin-top: 10px
 }
+
+.stage-1 {
+	display: inline-block;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
 .project-explained > ul > li {
 	text-align: left;
 }
