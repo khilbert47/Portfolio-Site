@@ -207,6 +207,11 @@ nav > ul > li > a:active {
 .look {
 	margin-bottom: 0;
 }
+#contact h2 {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
 #app-project h2 {
 	text-align: center;
 	padding-top: 50px;
