@@ -246,3 +246,7 @@ nav > ul > li > a:active {
 	text-align: center;
 }
 
+.interact-link {
+	text-align: center;
+	margin: 0 auto;
+}
