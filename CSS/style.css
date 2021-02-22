@@ -250,3 +250,8 @@ nav > ul > li > a:active {
 	text-align: center;
 	margin: 0 auto;
 }
+
+.about-h2 {
+	margin-bottom: 15px;
+}
+
