@@ -141,6 +141,15 @@ a:active {
 .logo {
 	max-width: 150px;
 }
+
+header {
+	background-color: white;
+	text-align: center;
+	padding: 10px 0;
+	box-shadow: 0px 4px 5px 0px rgba(145, 145, 145, 0.75);
+	position: fixed;
+	width: 100%;
+}
 nav {
 	display: inline-block;
 	width: 100%;
