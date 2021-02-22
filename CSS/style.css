@@ -118,6 +118,11 @@ a:active {
 }
 
 
+
+
+.logo {
+	max-width: 150px;
+}
 nav {
 	display: inline-block;
 	width: 100%;
