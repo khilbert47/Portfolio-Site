@@ -212,6 +212,10 @@ nav > ul > li > a:active {
 	text-align: center;
 }
 
+#work h3 {
+	margin-bottom: 15px;
+}
+
 #app-project h2 {
 	text-align: center;
 	padding-top: 50px;
