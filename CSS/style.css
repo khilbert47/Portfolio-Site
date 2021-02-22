@@ -7,6 +7,11 @@ alternate color (muted green):99B37B;
 alternate color(blue):3094B3;
 */
 
+*{
+	box-sizing: border-box;
+}
+
+
 body {
 	background-color: #D8E6E6;
 	font-family: roboto slab;
