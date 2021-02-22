@@ -75,6 +75,7 @@ a:active {
 	border-radius: 3px;
 	border-bottom: 2px solid #3094B3;
 	transition: 0.2s opacity;
+	display: inline-block;
 }
 
 .button:hover {
@@ -96,6 +97,8 @@ a:active {
 	border-radius: 3px;
 	border-bottom: 2px solid #3094B3;
 	transition: 0.2s opacity;
+	display: inline-block;
+	text-align: center;
 }
 
 .email-button {
@@ -106,6 +109,7 @@ a:active {
 	border-radius: 3px;
 	border-bottom: 2px solid #D9603F;
 	transition: 0.2s opacity;
+	display: inline-block;
 }
 
 .email-button:hover
@@ -114,4 +118,9 @@ a:active {
 }
 
 
+}
+
+.email-button {
+	margin-bottom: 10px;
+}
 
