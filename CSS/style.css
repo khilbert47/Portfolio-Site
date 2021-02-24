@@ -286,6 +286,7 @@ nav > ul > li > a:active {
 .skills-tools-h3 {
 	margin-top: 15px;
 	margin-bottom: 10px;
+	text-decoration: underline;
 }
 
 .row {
@@ -295,3 +296,16 @@ nav > ul > li > a:active {
 .center {
 	text-align: center;
 }
+
+#skills-tools ul {
+	list-style-type: none;
+}
+
+
+
+}	
+
+#skills-tools ul {
+		padding: 0;
+	}
+
