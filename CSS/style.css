@@ -337,11 +337,24 @@ nav > ul > li > a:active {
 	#hero {
 		text-align: center;
 	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-lg-7 {
+		width: 60%;
+	}
+	.col-lg-5 {
+		width: 40%;
+	}
 	.app-pic-index {
 		max-height: 500px;
 		max-width: 300px;
 	}
 
+	[class*="col-"] {
+	float: left;
+	padding: 10px;
+	}
 	.tools-large ul {
 		list-style-type: none;
 		padding: 0;
@@ -359,3 +372,7 @@ nav > ul > li > a:active {
 		margin-bottom: 50px;
 }
 
+	[class*="col-"] {
+	float: left;
+	padding: 30px;
+	}
