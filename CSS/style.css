@@ -451,3 +451,48 @@ nav > ul > li > a:active {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.chicago {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+@keyframes color {
+	0% {fill: #F7F172;}
+	50% {fill: #F7B272;}
+	100% {fill: #E63B32;}
+}
+
+.lettering {
+	animation: 5s color infinite alternate;
+}
+
+@keyframes grow {
+   	from {transform: translate(500px, 48px);}
+	to {transform: translate(50px, 48px);}
+}
+
+.dino {
+	animation: 3s grow infinite alternate linear;
+}
+
+@keyframes flash {
+	0% {fill: white;}
+	100% {fill: black;}
+}
+
+.sign {
+	animation: 1s flash infinite linear;
+}
+
+
+.whale {
+	animation: fly 6s infinite alternate ease-in-out;
+}
+
+@keyframes fly {
+ from { transform: rotate(0deg) translateX(9000px) translateY(1000px) rotate(0deg); }
+    to   { transform: rotate(180deg) translateX(0px) rotate(-180deg); }
+}
+
