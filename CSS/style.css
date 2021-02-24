@@ -432,3 +432,9 @@ nav > ul > li > a:active {
 		margin-bottom: 75px;
 	}
 }
+
+@media only screen and (min-width: 1440px) {
+	.about-photo-kelly {
+		margin-bottom: 400px;
+	}
+}
