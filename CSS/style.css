@@ -110,6 +110,7 @@ a:active {
 	transition: all ease-in-out 250ms;
 }
 
+
 .email-button {
 	color: white;
 	background-color: #CF7051;
@@ -184,13 +185,28 @@ nav > ul > li > a {
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #4a4a4a;
+	text-decoration: none;
 }
+
+nav > ul > li > a::after {
+	content: "";
+	position: absolute;
+	display: block;
+	height: 0.4em;
+	width: 0%;
+	background-color: #E0A038;
+	margin-left: 12px;
+	transition: all ease-in-out 500ms;
+}
+
+nav > ul > li > a:hover::after {
+	width: 6%;
+}
+
 nav > ul > li > a:visited {
 	text-decoration: none;
 }
-nav > ul > li > a:hover {
-	text-decoration: none;
-}
+
 nav > ul > li > a:active {
 	text-decoration: none;
 }
