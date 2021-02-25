@@ -90,6 +90,10 @@ a:active {
 	text-decoration: none;
 }
 
+.button:visited {
+	color: white;
+}
+
 .resume-button {
 	color: white;
 	background-color: #CF7051;
@@ -110,6 +114,10 @@ a:active {
 	transition: all ease-in-out 250ms;
 }
 
+.resume-button:visited {
+	color: white;
+}
+
 
 .email-button {
 	color: white;
@@ -127,6 +135,10 @@ a:active {
 	color: white;
 	border-bottom: 2px solid white;
 	transition: all ease-in-out 250ms;
+}
+
+.email-button:visited {
+	color: white;
 }
 
 /* Layout Styling */
@@ -495,4 +507,7 @@ nav > ul > li > a:active {
  from { transform: rotate(0deg) translateX(9000px) translateY(1000px) rotate(0deg); }
     to   { transform: rotate(180deg) translateX(0px) rotate(-180deg); }
 }
+
+
+
 
