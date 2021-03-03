@@ -170,27 +170,23 @@ a:active {
 header {
 	background-color: white;
 	text-align: center;
-	padding: 10px 0;
+	padding: 10px 0 4px;
 	box-shadow: 0px 4px 5px 0px rgba(145, 145, 145, 0.75);
 	position: fixed;
 	width: 100%;
 }
 main {
-	padding-top: 200px;
+	padding-top: 140px;
 }
-nav {
-	display: inline-block;
-	width: 100%;
-}
+
 
 nav > ul {
 	list-style-type: none;
 	padding: 0;
+	margin: 0;
 }
 
-nav >ul > li {
-	display: inline-block;
-}
+
 
 nav > ul > li > a {
 	padding: 0 15px;
@@ -200,20 +196,7 @@ nav > ul > li > a {
 	text-decoration: none;
 }
 
-nav > ul > li > a::after {
-	content: "";
-	position: absolute;
-	display: block;
-	height: 0.4em;
-	width: 0%;
-	background-color: #E0A038;
-	margin-left: 12px;
-	transition: all ease-in-out 500ms;
-}
 
-nav > ul > li > a:hover::after {
-	width: 6%;
-}
 
 nav > ul > li > a:visited {
 	text-decoration: none;
@@ -222,6 +205,31 @@ nav > ul > li > a:visited {
 nav > ul > li > a:active {
 	text-decoration: none;
 }
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.response {
+	position: relative;
+}
+
+.navtoggle.responsive li {
+	display: block;
+	padding: 10px 0;
+}
+
+.navtoggle li .icon {
+	position: absolute;
+	right: 0;
+	padding-right: 15px;
+	top: 2px;
+	font-size: 25px;
+	margin-top: 58px;
+	color: #3094B3;
+	border-radius: 20%;
+}
+
 #hero h1 {
 	margin-bottom: 4px;
 }
@@ -336,6 +344,38 @@ nav > ul > li > a:active {
 		margin-top: 50px;
 		padding-right: 20px;
 	}
+
+	nav > ul {
+		margin: 1em 0;
+	}
+
+	nav >ul > li {
+	display: inline-block;
+	}
+
+	.navtoggle li:not(:last-child) {
+		display: inline-block;
+	}
+
+	.navtoggle li:last-child {
+		display: none;
+	}
+
+	nav > ul > li > a::after {
+	content: "";
+	position: absolute;
+	display: block;
+	height: 0.4em;
+	width: 0%;
+	background-color: #E0A038;
+	margin-left: 12px;
+	transition: all ease-in-out 500ms;
+}
+
+nav > ul > li > a:hover::after {
+	width: 6%;
+}
+
 	.logo {
 		margin-left: 50px;
 	}
@@ -382,7 +422,10 @@ nav > ul > li > a:active {
 		max-height: 400px;
 		max-width: 500px;
 		margin-bottom: 50px;
+	}
+
 }
+
 
 @media only screen and (min-width: 1024px) {
 	body {
@@ -409,6 +452,7 @@ nav > ul > li > a:active {
 	.app-pic-tiyl {
 		max-height: 500px;
 		max-width: 300px;
+		padding-left: 50px;
 	}
 	.process-title {
 		margin-top: 130px;
@@ -438,10 +482,15 @@ nav > ul > li > a:active {
 		margin-right: auto;
 	}
 	.app-description-tiyl {
-		margin-top: 110px;
+		margin-top: 75px;
 	}
 	.app-p-tiyl {
-		margin-bottom: 75px;
+		margin-bottom: 90px;
+	}
+
+	.chicago {
+		min-width: 400px;
+		height: auto;
 	}
 }
 
@@ -465,8 +514,7 @@ nav > ul > li > a:active {
 }
 
 .chicago {
-	width: 100%;
-	max-width: 100%;
+	width: 300px;
 	height: auto;
 }
 
