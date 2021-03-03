@@ -15,14 +15,17 @@
 	<body>
 		<header id="header">
 			<div class="contianer">
-				<img class="logo" src="images/name-logo/hilbert-logo 2.png" alt="Kelly Hilbert">
-				<nav>
-					<ul>
-						<li><a href="index.html">Work</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</nav>
+				<div class="navtoggle" id="myNavtoggle">
+					<img class="logo" src="images/name-logo/hilbert-logo 2.png" alt="Kelly Hilbert">
+					<nav>
+						<ul>
+							<li><a href="index.html">Work</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a class="scroll" onclick="menuToggle()" href="#contact">Contact</a></li>
+							 <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+						</ul>
+					</nav>
+				</div>	
 			</div>
 		</header>
 	<main>
