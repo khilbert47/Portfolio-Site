@@ -415,12 +415,6 @@ nav > ul > li > a:hover::after {
 	.col-md-6 {
 		width: 50%;
 	}
-	.col-lg-7 {
-		width: 60%;
-	}
-	.col-lg-5 {
-		width: 40%;
-	}
 	.app-pic-index {
 		max-height: 500px;
 		max-width: 300px;
@@ -476,6 +470,7 @@ nav > ul > li > a:hover::after {
 }
 
 	main {
+		padding-top: 75px;
 	}
 	.process-title {
 		text-align: center;
