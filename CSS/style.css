@@ -171,6 +171,7 @@ a:active {
 
 .logo {
 	max-width: 150px;
+	border-radius: 50%;
 }
 
 header {
@@ -235,9 +236,6 @@ nav > ul > li > a:active {
 	border-radius: 20%;
 }
 
-#hero h1 {
-	margin-bottom: 4px;
-}
 
 #hero {
 	background-color: white;
@@ -340,8 +338,21 @@ nav > ul > li > a:active {
 	}
 
 @media only screen and (min-width: 640px) {
+	
+	#hero p {
+	max-width: 600px;
+	text-align: center;
+}
+
+	#hero h2 {
+		text-align: center;
+	}
+
 	header {
 		text-align: unset;
+		opacity: 90%;
+	}
+
 	.name {
 		display: inline-flex;
 		font-size: 12px;
@@ -393,7 +404,7 @@ nav > ul > li > a:hover::after {
 	
 
 	main {
-		padding-top: 150px;
+		padding-top: 100px;
 	}
 	body {
 		font-size: 18px;
@@ -444,8 +455,7 @@ nav > ul > li > a:hover::after {
 		font-size: 18px;
 	}
 	.logo {
-		margin-left: 50px;
-		max-width: 200px;
+		max-width: 350px;
 	}
 	nav {
 		margin-right: 60px;
@@ -456,8 +466,16 @@ nav > ul > li > a:hover::after {
 		margin-bottom: 10px;
 	}
 
+	#hero {
+		padding-left: 12%;
+	}
+
+	#hero p {
+	max-width: 600px;
+	text-align: center;
+}
+
 	main {
-		padding-top: 200px;
 	}
 	.process-title {
 		text-align: center;
@@ -489,9 +507,9 @@ nav > ul > li > a:hover::after {
   		margin-left: auto;
   		margin-right: auto;
   		width: 50%;
-		max-height: 400px;
-		max-width: 600px;
-		margin-bottom: 300px;
+		max-height: 300px;
+		max-width: 500px;
+		margin-bottom: 400px;
 	}
 	.process-explained {
 		max-width: 900px;
