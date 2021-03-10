@@ -8,7 +8,7 @@ function menuToggle() {
 	} else {
 		x.className = 'navtoggle';
 	}
-	
+
 }
 
 $(document).ready(function() {
