@@ -161,6 +161,10 @@ header {
   width: 100%;
 }
 
+.homepage-link {
+	text-decoration: none;
+}
+
 main {
   padding-top: 140px;
 }
