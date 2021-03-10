@@ -8,6 +8,7 @@
 	<link href="images/favicon.ico" rel="shortcut icon">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
@@ -80,17 +81,9 @@
 					<p>Each separate page followed a similar design and feel and included a description of the main/most important content listed on the page.</p>
 				</div>
 				<div class="row">
-					<div class="col-md-6">
-						<picture>
-							<source srcset="images/app/podsite-layout1small.jpg" media="(max-width:767px)">
-							<img src="images/app/podsite-layout1big.jpg" alt="Podcast Website Layout 1">
-						</picture>
-					</div>
-					<div class="col-md-6">
-						<picture>
-							<source srcset="images/app/podsite-layout2small.jpg" media="(max-width:767px)">
-							<img src="images/app/podsite-layout2big.jpg" alt="Podcast Website Layout 2">
-						</picture>
+					<div class="image-gallery">
+						<a href="images/app/podsite-layout1big.jpg" data-lightbox="Podcast Layout" data-title="Begining planning stages of This is Your Life Podcast website. First look at possible site layout page #1."><img src="images/app/podsite-layout1small.jpg" alt="Layout #1 for Podcast Website"></a>
+						<a href="images/app/podsite-layout2big.jpg" data-lightbox="Podcast Layout" data-title="Begining planning stages of This is Your Life Podcast website. First look at possible site layout page #2."><img src="images/app/podsite-layout2small.jpg" alt="Layout #2 for Podcast Website"></a>
 					</div>
 				</div>
 			</div>
@@ -123,6 +116,7 @@
 		</div>
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
 

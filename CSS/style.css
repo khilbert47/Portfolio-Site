@@ -319,6 +319,13 @@ footer h2 {
   text-align: center;
   margin: 0 auto;
 }
+.image-gallery {
+	text-align: center;
+}
+
+.image-gallery img {
+	max-width: 180px;
+}
 
 .about-h2 {
   margin-bottom: 15px;
@@ -477,6 +484,18 @@ footer h2 {
     max-width: 500px;
     margin-bottom: 100px;
   }
+
+	.image-gallery {
+		text-align: center;
+	}
+	.image-gallery img {
+		padding: 10px;
+		max-width: 180px;
+		transition: 1s;
+	}
+	.image-gallery img:hover {
+		transform: scale(1.1);
+	}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -589,7 +608,13 @@ footer h2 {
   .button {
     margin-right: 50px;
   }
+
+
+
+
 }
+
+
 
 @media only screen and (min-width: 1440px) {
   .about-photo-kelly {
