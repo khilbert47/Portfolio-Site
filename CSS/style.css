@@ -248,6 +248,10 @@ footer h2 {
   display: block;
 }
 
+.github {
+	margin-left: 20px;
+}
+
 .fab {
   color: #3094B3;
   font-size: 34px;
