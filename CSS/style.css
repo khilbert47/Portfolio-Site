@@ -137,6 +137,10 @@ a:active {
   border-bottom: 1px solid #4a4a4a;
 }
 
+.podsite-homepage {
+  max-width: 300px;
+}
+
 #app-project h2 {
   margin-top: 50px;
   text-align: center;
@@ -150,6 +154,15 @@ a:active {
 .logo {
   max-width: 150px;
   border-radius: 50%;
+}
+
+.podcast-logo {
+  max-width: 200px;
+  border-radius: 60%;
+}
+
+#work img {
+  box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
 }
 
 header {
@@ -462,6 +475,23 @@ footer h2 {
     max-width: 300px;
   }
 
+  .skills-tools-h3 {
+    text-align: center;
+  }
+
+  .app-p-tiyl {
+    padding-right: 0;
+  }
+
+  .podcast-logo {
+    max-width: 300px;
+  }
+
+  .podsite-homepage {
+    max-width: 600px;
+    margin-top: 60px;
+  }
+
   [class*="col-"] {
     float: left;
     padding: 10px;
@@ -547,19 +577,12 @@ footer h2 {
     padding: 30px;
   }
 
-  .app-pic-tiyl {
-    max-height: 500px;
-    max-width: 300px;
-    padding-right: 0;
-  }
+
 
   .process-title {
     margin-top: 130px;
   }
 
-  .tools-large {
-    text-align: center;
-  }
 
   .tools-large ul {
     list-style-type: none;
@@ -609,12 +632,7 @@ footer h2 {
     margin-right: 50px;
   }
 
-
-
-
 }
-
-
 
 @media only screen and (min-width: 1440px) {
   .about-photo-kelly {
