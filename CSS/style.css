@@ -757,6 +757,6 @@ footer h2 {
   }
 
   to {
-    transform: rotate(180deg) translateX(0px) rotate(-180deg);
+    transform: rotate(180deg) translateX(0px) rotate(180deg);
   }
 }
