@@ -111,7 +111,7 @@ a:active {
   text-decoration: none;
 }
 
-.resume-button:hover {
+.resume-button:hover, .resume-button:focus {
   background-color: transparent;
   color: white;
   border-bottom: 2px solid white;
@@ -137,6 +137,10 @@ a:active {
   border-bottom: 1px solid #4a4a4a;
 }
 
+.podsite-homepage {
+  max-width: 300px;
+}
+
 #app-project h2 {
   margin-top: 50px;
   text-align: center;
@@ -150,6 +154,15 @@ a:active {
 .logo {
   max-width: 150px;
   border-radius: 50%;
+}
+
+.podcast-logo {
+  max-width: 200px;
+  border-radius: 60%;
+}
+
+#work img {
+  box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
 }
 
 header {
@@ -248,10 +261,6 @@ footer h2 {
   display: block;
 }
 
-.github {
-	margin-left: 20px;
-}
-
 .fab {
   color: #3094B3;
   font-size: 34px;
@@ -320,6 +329,31 @@ footer h2 {
   text-align: center;
 }
 
+.interact-link {
+  color: white;
+  background-color: #C05735;
+  font-weight: 400;
+  padding: 6px;
+  border-radius: 3px;
+  border-bottom: 2px solid white;
+  transition: 0.2s opacity;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.interact-link:hover, .interact-link:focus {
+  background-color: transparent;
+  color: white;
+  border-bottom: 2px solid white;
+  transition: all ease-in-out 250ms;
+}
+
+.interact-link:visited {
+  color: white;
+}
+
 
 .image-gallery {
 	text-align: center;
@@ -328,6 +362,7 @@ footer h2 {
 .image-gallery img {
 	max-width: 180px;
 }
+
 
 .about-h2 {
   margin-bottom: 15px;
@@ -463,15 +498,53 @@ footer h2 {
     max-width: 300px;
   }
 
+  .skills-tools-h3 {
+    text-align: center;
+  }
+
+  .app-p-tiyl {
+    padding-right: 0;
+  }
+
+  .podcast-logo {
+    max-width: 300px;
+  }
+
+  .podsite-homepage {
+    max-width: 600px;
+    margin-top: 60px;
+  }
+
+  .listen-screenshot {
+    max-width: 800px;
+    margin-top: 40px;
+  }
+
+  .animation1-p {
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+
+  .navigation-animation {
+    margin-top: 20px;
+    max-width: 800px;
+  }
+
+  .site-style-p {
+    margin-top: 10px;
+  }
+
+  .homepage-animation {
+    max-width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   [class*="col-"] {
     float: left;
     padding: 10px;
   }
 
-  .tools-large ul {
-    list-style-type: none;
-    padding: 0;
-  }
 
   #skills-tools ul {
     padding: 0;
@@ -487,11 +560,11 @@ footer h2 {
     margin-bottom: 100px;
   }
 
-	.image-gallery {
-		text-align: center;
-	}
+  .image-gallery {
+	   text-align: center;
+   }
 	.image-gallery img {
-		padding: 10px;
+	   padding: 10px;
 		max-width: 180px;
 		transition: 1s;
 	}
@@ -548,23 +621,8 @@ footer h2 {
     padding: 30px;
   }
 
-  .app-pic-tiyl {
-    max-height: 500px;
-    max-width: 300px;
-    padding-right: 0;
-  }
-
   .process-title {
     margin-top: 130px;
-  }
-
-  .tools-large {
-    text-align: center;
-  }
-
-  .tools-large ul {
-    list-style-type: none;
-    padding: 0;
   }
 
   #skills-tools ul {
@@ -610,12 +668,7 @@ footer h2 {
     margin-right: 50px;
   }
 
-
-
-
 }
-
-
 
 @media only screen and (min-width: 1440px) {
   .about-photo-kelly {
