@@ -564,11 +564,11 @@ footer h2 {
     margin-bottom: 100px;
   }
 
-	.image-gallery {
-		text-align: center;
-	}
+  .image-gallery {
+	   text-align: center;
+   }
 	.image-gallery img {
-		padding: 10px;
+	   padding: 10px;
 		max-width: 180px;
 		transition: 1s;
 	}
@@ -624,8 +624,6 @@ footer h2 {
     float: left;
     padding: 30px;
   }
-
-
 
   .process-title {
     margin-top: 130px;
