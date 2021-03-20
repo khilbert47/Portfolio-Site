@@ -545,10 +545,6 @@ footer h2 {
     padding: 10px;
   }
 
-  .tools-large ul {
-    list-style-type: none;
-    padding: 0;
-  }
 
   #skills-tools ul {
     padding: 0;
@@ -627,12 +623,6 @@ footer h2 {
 
   .process-title {
     margin-top: 130px;
-  }
-
-
-  .tools-large ul {
-    list-style-type: none;
-    padding: 0;
   }
 
   #skills-tools ul {
