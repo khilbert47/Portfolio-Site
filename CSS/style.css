@@ -330,9 +330,31 @@ footer h2 {
 }
 
 .interact-link {
+  color: white;
+  background-color: #C05735;
+  font-weight: 400;
+  padding: 6px;
+  border-radius: 3px;
+  border-bottom: 2px solid white;
+  transition: 0.2s opacity;
+  display: inline-block;
   text-align: center;
-  margin: 0 auto;
+  text-decoration: none;
+  margin-bottom: 30px;
 }
+
+.interact-link:hover, .interact-link:focus {
+  background-color: transparent;
+  color: white;
+  border-bottom: 2px solid white;
+  transition: all ease-in-out 250ms;
+}
+
+.interact-link:visited {
+  color: white;
+}
+
+
 .image-gallery {
 	text-align: center;
 }
