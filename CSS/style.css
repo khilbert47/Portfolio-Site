@@ -329,6 +329,20 @@ footer h2 {
   text-align: center;
 }
 
+.navigation-animation, .homepage-animation, .listen-screenshot {
+  max-width: 250px;
+}
+
+.project-explained p, h3, h5 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.process-explained p, h3, h5 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .interact-link {
   color: white;
   background-color: #C05735;
@@ -341,6 +355,7 @@ footer h2 {
   text-align: center;
   text-decoration: none;
   margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .interact-link:hover, .interact-link:focus {
@@ -510,13 +525,23 @@ footer h2 {
     max-width: 300px;
   }
 
+  .project-explained p, h3, h5 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .process-explained p, h3, h5 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .podsite-homepage {
     max-width: 600px;
     margin-top: 60px;
   }
 
   .listen-screenshot {
-    max-width: 800px;
+    max-width: 500px;
     margin-top: 40px;
   }
 
@@ -527,7 +552,7 @@ footer h2 {
 
   .navigation-animation {
     margin-top: 20px;
-    max-width: 800px;
+    max-width: 500px;
   }
 
   .site-style-p {
@@ -535,7 +560,7 @@ footer h2 {
   }
 
   .homepage-animation {
-    max-width: 800px;
+    max-width: 500px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -681,6 +706,17 @@ footer h2 {
 
   .contact-icons {
     margin-right: 400px;
+  }
+
+  .homepage-animation {
+    max-width: 800px;
+  }
+  .navigation-animation {
+    max-width: 800px;
+  }
+
+  .listen-screenshot {
+    max-width: 700px;
   }
 }
 
