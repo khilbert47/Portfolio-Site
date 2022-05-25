@@ -11,15 +11,17 @@ alternate color(blue):3094B3;
 }
 
 body {
-  background-color: #D8E6E6;
-	color: #000000;
+  background-color: #d8e6e6;
+  color: #000000;
   font-family: "roboto slab", serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Merriweather", serif;
   line-height: 1.2;
 }
@@ -40,7 +42,7 @@ h3 {
 }
 
 .job-title {
-  font-size: .5em;
+  font-size: 0.5em;
   font-style: italic;
   padding-bottom: 10px;
 }
@@ -51,29 +53,29 @@ img {
 
 header h1 {
   font-family: "Abril Fatface", cursive;
-  color: #D9603F;
+  color: #d9603f;
   margin-bottom: 10px;
 }
 
 a:visited {
-  color: #3094B3;
+  color: #3094b3;
   text-decoration: underline;
 }
 
 a:hover,
 a:focus {
-  color: #E0A038;
+  color: #e0a038;
   text-decoration: none;
 }
 
 a:active {
-  color: #E0A038;
+  color: #e0a038;
   text-decoration: none;
 }
 
 .button {
   color: white;
-  background-color: #C05735;
+  background-color: #c05735;
   font-weight: 400;
   padding: 6px;
   border-radius: 3px;
@@ -100,7 +102,7 @@ a:active {
 
 .resume-button {
   color: white;
-  background-color: #C05735;
+  background-color: #c05735;
   font-weight: 400;
   padding: 6px;
   border-radius: 3px;
@@ -111,7 +113,8 @@ a:active {
   text-decoration: none;
 }
 
-.resume-button:hover, .resume-button:focus {
+.resume-button:hover,
+.resume-button:focus {
   background-color: transparent;
   color: white;
   border-bottom: 2px solid white;
@@ -175,32 +178,32 @@ header {
 }
 
 .homepage-link {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 main {
   padding-top: 140px;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #3094B3;
+  color: #3094b3;
   text-decoration: none;
 }
 
-nav>ul>li>a:visited {
+nav > ul > li > a:visited {
   text-decoration: none;
 }
 
-nav>ul>li>a:active {
+nav > ul > li > a:active {
   text-decoration: none;
 }
 
@@ -208,7 +211,8 @@ nav>ul>li>a:active {
   display: none;
 }
 
-.navtoggle, .navtoggle.response {
+.navtoggle,
+.navtoggle.response {
   position: relative;
 }
 
@@ -223,7 +227,7 @@ nav>ul>li>a:active {
   top: 2px;
   font-size: 25px;
   margin-top: 10px;
-  color: #3094B3;
+  color: #3094b3;
   border-radius: 20%;
 }
 
@@ -232,7 +236,7 @@ nav>ul>li>a:active {
   padding: 20px 0;
   display: inline-block;
   width: 100%;
-	box-shadow: 0px 2px 3px 0px rgba(145, 145, 145, 0.75);
+  box-shadow: 0px 2px 3px 0px rgba(145, 145, 145, 0.75);
 }
 
 footer {
@@ -243,7 +247,7 @@ footer {
 footer h2 {
   font-family: "Abril Fatface", cursive;
   font-size: 3em;
-  color: #D9603F;
+  color: #d9603f;
   margin-top: 0;
   margin-bottom: 15px;
   text-align: center;
@@ -262,13 +266,18 @@ footer h2 {
 }
 
 .fab {
-  color: #3094B3;
+  color: #3094b3;
   font-size: 34px;
   margin-right: 4px;
+  margin-left: 4px;
+}
+
+.github i {
+  margin-left: 15px;
 }
 
 .fab:hover {
-  color: #6B6B6B;
+  color: #6b6b6b;
   font-size: 36px;
   transition: all ease-in-out 200ms;
 }
@@ -280,24 +289,24 @@ footer h2 {
 
 .far {
   font-size: 34px;
-  color: #3094B3;
+  color: #3094b3;
   margin-right: 20px;
   margin-left: 20px;
 }
 
 .far:hover {
-  color: #6B6B6B;
+  color: #6b6b6b;
   font-size: 36px;
   transition: all ease-in-out 200ms;
 }
 
 .fas {
   font-size: 34px;
-  color: #3094B3;
+  color: #3094b3;
 }
 
 .fas:hover {
-  color: #6B6B6B;
+  color: #6b6b6b;
   font-size: 36px;
   transition: all ease-in-out 200ms;
 }
@@ -311,7 +320,7 @@ footer h2 {
 }
 
 .project-explained h5 {
-  margin-top: 10px
+  margin-top: 10px;
 }
 
 .stage-1 {
@@ -321,31 +330,37 @@ footer h2 {
   padding-bottom: 5px;
 }
 
-.project-explained>ul>li {
+.project-explained > ul > li {
   text-align: left;
 }
 
-.project-explained>ul {
+.project-explained > ul {
   text-align: center;
 }
 
-.navigation-animation, .homepage-animation, .listen-screenshot {
+.navigation-animation,
+.homepage-animation,
+.listen-screenshot {
   max-width: 250px;
 }
 
-.project-explained p, h3, h5 {
+.project-explained p,
+h3,
+h5 {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-.process-explained p, h3, h5 {
+.process-explained p,
+h3,
+h5 {
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .interact-link {
   color: white;
-  background-color: #C05735;
+  background-color: #c05735;
   font-weight: 400;
   padding: 6px;
   border-radius: 3px;
@@ -358,7 +373,8 @@ footer h2 {
   margin-top: 20px;
 }
 
-.interact-link:hover, .interact-link:focus {
+.interact-link:hover,
+.interact-link:focus {
   background-color: transparent;
   color: white;
   border-bottom: 2px solid white;
@@ -369,15 +385,13 @@ footer h2 {
   color: white;
 }
 
-
 .image-gallery {
-	text-align: center;
+  text-align: center;
 }
 
 .image-gallery img {
-	max-width: 180px;
+  max-width: 180px;
 }
-
 
 .about-h2 {
   margin-bottom: 15px;
@@ -422,9 +436,9 @@ footer h2 {
     text-align: center;
   }
 
-	.logo {
-		max-width: 300px;
-	}
+  .logo {
+    max-width: 300px;
+  }
 
   header {
     text-align: unset;
@@ -446,12 +460,12 @@ footer h2 {
     padding-left: 10px;
   }
 
-  nav>ul {
+  nav > ul {
     margin-top: 20px;
     margin-bottom: 0;
   }
 
-  nav>ul>li {
+  nav > ul > li {
     display: inline-block;
     font-size: 20px;
   }
@@ -464,18 +478,18 @@ footer h2 {
     display: none;
   }
 
-  nav>ul>li>a::after {
+  nav > ul > li > a::after {
     content: "";
     position: absolute;
     display: block;
     height: 0.4em;
     width: 0%;
-    background-color: #E0A038;
+    background-color: #e0a038;
     margin-left: 12px;
     transition: all ease-in-out 500ms;
   }
 
-  nav>ul>li>a:hover::after {
+  nav > ul > li > a:hover::after {
     width: 6%;
   }
 
@@ -525,12 +539,16 @@ footer h2 {
     max-width: 300px;
   }
 
-  .project-explained p, h3, h5 {
+  .project-explained p,
+  h3,
+  h5 {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .process-explained p, h3, h5 {
+  .process-explained p,
+  h3,
+  h5 {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -570,7 +588,6 @@ footer h2 {
     padding: 10px;
   }
 
-
   #skills-tools ul {
     padding: 0;
   }
@@ -586,16 +603,16 @@ footer h2 {
   }
 
   .image-gallery {
-	   text-align: center;
-   }
-	.image-gallery img {
-	   padding: 10px;
-		max-width: 180px;
-		transition: 1s;
-	}
-	.image-gallery img:hover {
-		transform: scale(1.1);
-	}
+    text-align: center;
+  }
+  .image-gallery img {
+    padding: 10px;
+    max-width: 180px;
+    transition: 1s;
+  }
+  .image-gallery img:hover {
+    transform: scale(1.1);
+  }
 }
 @media only screen and (min-width: 1024px) {
   body {
@@ -661,7 +678,7 @@ footer h2 {
     width: 50%;
     max-height: 300px;
     max-width: 500px;
-    margin-bottom: 400px;
+    margin-bottom: 150px;
   }
 
   .process-explained {
@@ -685,14 +702,14 @@ footer h2 {
     height: auto;
   }
 
-  #work h3, p {
+  #work h3,
+  p {
     padding-right: 50px;
   }
 
   .button {
     margin-right: 50px;
   }
-
 }
 
 @media only screen and (min-width: 1440px) {
@@ -739,15 +756,15 @@ footer h2 {
 
 @keyframes color {
   0% {
-    fill: #F7F172;
+    fill: #f7f172;
   }
 
   50% {
-    fill: #F7B272;
+    fill: #f7b272;
   }
 
   100% {
-    fill: #E63B32;
+    fill: #e63b32;
   }
 }
 
@@ -795,4 +812,8 @@ footer h2 {
   to {
     transform: rotate(180deg) translateX(0px) rotate(180deg);
   }
+}
+
+#color-palette {
+  max-width: 600px;
 }
