@@ -146,6 +146,158 @@ a:active {
   padding: 0 15px;
 }
 
+.colm-2 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 47% 6% 47%;
+  text-align: center;
+}
+
+.colm-2-b {
+  position: relative;
+  display: grid;
+  grid-template-columns: 48% 4% 48%;
+  text-align: center;
+}
+
+.podcast-logo {
+  width: 400px !important;
+}
+
+.overlay .work-link {
+  color: transparent;
+}
+
+.overlay h2 {
+  color: transparent;
+  text-align: center;
+}
+
+.overlay:hover a:hover {
+  left: 10%;
+}
+
+.overlay:hover .work-link {
+  color: white;
+  left: 10%;
+  background-color: transparent;
+  font-weight: 400;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid white;
+  text-decoration: none;
+}
+
+.overlay:hover .work-link:hover {
+  background-color: white;
+  color: #de6600;
+}
+
+.overlay {
+  margin-left: 10%;
+  height: 330px;
+  width: 100%;
+  padding-top: 100px;
+  color: transparent;
+  overflow: hidden;
+  background: #3094b3; /* fallback for old browsers */
+  background: url("../images/just-stories/homepage-js.svg"); /* Chrome 10-25, Safari 5.1-6 */
+  background: url("../images/just-stories/homepage-js.svg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 400px;
+  background-repeat: no-repeat;
+  transition: 0.3s ease-in;
+}
+
+.overlay:hover h2 {
+  color: white;
+  font-size: 1.5em;
+}
+
+.overlay:hover {
+  margin-left: 10%;
+  height: 330px;
+  width: 90%;
+  padding-top: 100px;
+  padding-right: 6em;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  background: ##3094b3; /* fallback for old browsers */
+  background: linear-gradient(rgb(48, 148, 179, 0.95), rgb(30, 93, 113, 0.95)),
+    url("../images/just-stories/homepage-js.svg"); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(rgb(48, 148, 179, 0.95), rgb(30, 93, 113, 0.95)),
+    url("../images/just-stories/homepage-js.svg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 400px;
+  background-repeat: no-repeat;
+}
+
+.overlay2 .work-link {
+  color: transparent;
+}
+
+.overlay2 h2 {
+  color: transparent;
+  text-align: center;
+}
+
+.overlay2:hover a:hover {
+  right: 10%;
+}
+
+.overlay2:hover .work-link {
+  color: white;
+  right: 10%;
+  background-color: transparent;
+  font-weight: 400;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid white;
+  text-decoration: none;
+}
+
+.overlay2:hover .work-link:hover {
+  background-color: white;
+  color: #de6600;
+}
+
+.colm-2-row {
+  padding-left: 18%;
+}
+.overlay2 {
+  height: 330px;
+  width: 100%;
+  padding-top: 100px;
+  color: transparent;
+  overflow: hidden;
+  background: ##3094b3; /* fallback for old browsers */
+  background: url("../images/App/homepage-tiyl.svg"); /* Chrome 10-25, Safari 5.1-6 */
+  background: url("../images/App/homepage-tiyl.svg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 400px;
+  background-repeat: no-repeat;
+  transition: 0.4s ease-in;
+}
+
+.overlay2:hover h2 {
+  color: white;
+  font-size: 1.3em;
+}
+
+.overlay2:hover {
+  height: 330px;
+  width: 90%;
+  padding-top: 100px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  background: #3094b3; /* fallback for old browsers */
+  background: linear-gradient(rgb(48, 148, 179, 0.95), rgb(30, 93, 113, 0.95)),
+    url("../images/App/homepage-tiyl.svg"); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(rgb(48, 148, 179, 0.95), rgb(30, 93, 113, 0.95)),
+    url("../images/App/homepage-tiyl.svg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 400px;
+  background-repeat: no-repeat;
+}
+
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
@@ -442,6 +594,48 @@ h5 {
   padding: 0;
 }
 
+  .colm-2 {
+    display: block;
+  }
+
+  .overlay {
+    margin-left: 5%;
+    padding-top: 50px;
+    height: 200px;
+    background-size: 200px;
+  }
+
+  .overlay:hover h2 {
+    font-size: 1em;
+  }
+
+  .overlay:hover {
+    margin-left: 5%;
+    padding-top: 50px;
+    height: 200px;
+    background-size: 200px;
+  }
+
+  .overlay2 {
+    height: 200px;
+    background-size: 200px;
+  }
+  .overlay2:hover {
+    height: 200px;
+    background-size: 200px;
+  }
+
+  .overlay {
+    margin-left: 26%;
+  }
+
+  .overlay2 {
+    margin-left: 10%;
+  }
+  .js-grid {
+    display: block;
+  }
+
 @media only screen and (min-width: 640px) {
   #hero p {
     max-width: 600px;
@@ -536,6 +730,39 @@ h5 {
 
   .col-md-6 {
     width: 50%;
+  }
+
+  .colm-2 {
+    display: block;
+  }
+  #work .row {
+    margin-left: 5%;
+  }
+  .overlay {
+    margin-left: 15%;
+  }
+
+  overlay:hover {
+    margin-right: 2%;
+  }
+
+  .overlay2:hover {
+    padding-right: 10%;
+  }
+
+  .colm-2-row {
+    padding-top: 10%;
+    padding-left: 15%;
+  }
+
+  .logo {
+    max-width: 250px;
+    margin-top: 35px;
+  }
+
+  .js-grid {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .app-pic-index {
@@ -664,6 +891,38 @@ h5 {
     max-width: 600px;
     text-align: center;
     padding-right: 0;
+  }
+
+  #work .row {
+    padding-left: 5%;
+    margin-left: 0;
+  }
+
+  .overlay2 {
+    padding-right: 20px;
+  }
+
+  .overlay {
+    padding-left: 30px;
+  }
+
+  .colm-2-row {
+    padding-left: 10%;
+    padding-top: 0;
+  }
+
+  .colm-2 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 47% 6% 47%;
+    text-align: center;
+  }
+
+  .colm-2-b {
+    position: relative;
+    display: grid;
+    grid-template-columns: 48% 4% 48%;
+    text-align: center;
   }
 
   main {
