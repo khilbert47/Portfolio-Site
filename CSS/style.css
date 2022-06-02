@@ -628,7 +628,6 @@ h5 {
   }
 
   .overlay:hover {
-    margin-left: 5%;
     padding-top: 50px;
     height: 200px;
     background-size: 200px;
@@ -660,6 +659,7 @@ h5 {
   .overlay {
     margin-left: 26%;
   }
+
 
   .overlay2 {
     margin-left: 10%;
@@ -798,11 +798,11 @@ h5 {
   }
 
   overlay:hover {
-    margin-right: 2%;
+    margin-right: 20%;
   }
 
   .overlay2:hover {
-    padding-right: 10%;
+    padding-right: 18%;
   }
 
   .colm-2-row {
@@ -974,6 +974,14 @@ h5 {
 
   .overlay {
     padding-left: 30px;
+  }
+
+  .overlay:hover {
+    padding-right: 8em;
+  }
+
+  overlay2:hover {
+    padding-right 12em;
   }
 
   .colm-2-row {
