@@ -37,7 +37,18 @@ h2 {
 
 h3 {
   font-size: 1.75em;
+  font-weight: 500;
+}
+h5 {
+  font-size: 1.1em;
   font-weight: 400;
+  color: #333c3e;
+}
+
+h6 {
+  font-size: 1em;
+  font-weight: 200;
+  color: #de6600;
   font-family: "Abril Fatface", cursive;
 }
 
@@ -53,8 +64,13 @@ img {
 
 header h1 {
   font-family: "Abril Fatface", cursive;
-  color: #d9603f;
+  color: #de6600;
   margin-bottom: 10px;
+}
+
+.italic {
+  font-style: italic;
+  font-weight: 500;
 }
 
 a:visited {
