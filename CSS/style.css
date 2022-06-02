@@ -142,6 +142,14 @@ a:active {
 }
 
 /* Layout Styling */
+#hero p {
+  margin-bottom: 0;
+}
+
+#hero h6 {
+  margin-top: 4px;
+}
+
 .container {
   padding: 0 15px;
 }
@@ -299,17 +307,17 @@ a:active {
 }
 
 #work .row {
-  padding-bottom: 25px;
-  border-bottom: 1px solid #4a4a4a;
+  padding-bottom: 10%;
+  box-shadow: 0px 2px 0px 0px rgba(145, 145, 145, 0.75);
 }
 
 #app-project {
   padding-bottom: 25px;
-  border-bottom: 1px solid #4a4a4a;
+  box-shadow: 0px 2px 0px 0px rgba(145, 145, 145, 0.75);
 }
 
 .podsite-homepage {
-  max-width: 300px;
+  width: 600px;
 }
 
 #app-project h2 {
@@ -317,9 +325,22 @@ a:active {
   text-align: center;
 }
 
+#app-project ul {
+  font-weight: 200;
+  color: #333c3e;
+}
+
+.app-p-tiyl,
+.current-tag {
+  color: #333c3e;
+}
+
+.current-tag {
+  margin-bottom: 0;
+}
+
 #skills-tools {
   padding-bottom: 25px;
-  border-bottom: 1px solid #4a4a4a;
 }
 
 .logo {
@@ -327,21 +348,11 @@ a:active {
   border-radius: 50%;
 }
 
-.podcast-logo {
-  max-width: 200px;
-  border-radius: 60%;
-}
-
-#work img {
-  box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
-}
-
 header {
   background-color: white;
   text-align: center;
-  padding: 10px 0 4px;
+  padding: 10px 0 10px;
   box-shadow: 0px 4px 5px 0px rgba(145, 145, 145, 0.75);
-  position: fixed;
   width: 100%;
 }
 
@@ -410,6 +421,7 @@ nav > ul > li > a:active {
 footer {
   background-color: white;
   padding-top: 10px;
+  box-shadow: 0px 0px 3px 0px rgba(145, 145, 145, 0.75);
 }
 
 footer h2 {
@@ -526,6 +538,11 @@ h5 {
   padding-right: 10px;
 }
 
+.image-border,
+.color-palette img {
+  box-shadow: 1px 2px 3px 1px rgba(145, 145, 145, 0.75);
+}
+
 .interact-link {
   color: white;
   background-image: -webkit-linear-gradient(#f57200, #de6600);
@@ -567,8 +584,7 @@ h5 {
 
 .skills-tools-h3 {
   margin-top: 15px;
-  margin-bottom: 10px;
-  text-decoration: underline;
+  margin-bottom: 15px;
 }
 
 .row {
@@ -586,14 +602,16 @@ h5 {
 .pro-pic {
   height: 40%;
   width: 100%;
-  border-radius: 20%;
-  box-shadow: 0 4px 6px 0 rgb(34, 60, 80, 0.16);
 }
 
 #skills-tools ul {
   padding: 0;
 }
 
+@media only screen and (max-width: 440px) {
+  main {
+    padding-top: 30px;
+  }
   .colm-2 {
     display: block;
   }
@@ -625,6 +643,20 @@ h5 {
     background-size: 200px;
   }
 
+  .chicago {
+    padding-left: 20%;
+  }
+
+  #animation-h3 {
+    text-align: center;
+  }
+
+  .col-md-6 p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 640px) {
   .overlay {
     margin-left: 26%;
   }
@@ -632,9 +664,32 @@ h5 {
   .overlay2 {
     margin-left: 10%;
   }
+
+  #app-project h2 {
+    font-size: 1.6em;
+  }
+  .podsite-homepage {
+    max-width: 300px;
+  }
+
+  .video {
+    max-width: 300px;
+    height: auto;
+  }
+
+  .color-palettes {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .js-grid {
     display: block;
   }
+
+  .navigation-animation {
+    margin-bottom: 10px;
+  }
+}
 
 @media only screen and (min-width: 640px) {
   #hero p {
@@ -717,11 +772,11 @@ h5 {
   }
 
   main {
-    padding-top: 100px;
+    padding-top: 20px;
   }
 
   body {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   #hero {
@@ -765,6 +820,11 @@ h5 {
     padding-right: 5%;
   }
 
+  .video {
+    width: 500px;
+    height: auto;
+  }
+
   .app-pic-index {
     max-height: 500px;
     max-width: 300px;
@@ -779,7 +839,7 @@ h5 {
   }
 
   .podcast-logo {
-    max-width: 300px;
+    max-width: 400px;
   }
 
   .project-explained p,
@@ -797,8 +857,17 @@ h5 {
   }
 
   .podsite-homepage {
-    max-width: 600px;
-    margin-top: 60px;
+    width: 400px;
+    margin-top: 10px;
+  }
+
+  .app-description-tiyl {
+    margin-top: 50px;
+  }
+
+  .about-text {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .listen-screenshot {
@@ -857,6 +926,7 @@ h5 {
     transform: scale(1.1);
   }
 }
+
 @media only screen and (min-width: 1024px) {
   body {
     font-size: 18px;
@@ -872,11 +942,11 @@ h5 {
   }
 
   footer h2 {
-    margin-left: 200px;
+    margin-left: 150px;
   }
 
   .contact-icons {
-    margin-right: 300px;
+    margin-right: 200px;
   }
 
   header h1 {
@@ -926,7 +996,7 @@ h5 {
   }
 
   main {
-    padding-top: 75px;
+    padding-top: 50px;
   }
 
   .process-title {
@@ -956,8 +1026,13 @@ h5 {
     margin-bottom: 150px;
   }
 
+  #about-kelly {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
   .process-explained {
-    max-width: 900px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -975,6 +1050,7 @@ h5 {
   .chicago {
     min-width: 400px;
     height: auto;
+    padding-left: 10%;
   }
 
   #work h3,
@@ -984,6 +1060,10 @@ h5 {
 
   .button {
     margin-right: 50px;
+  }
+
+  .podsite-homepage {
+    width: 600px;
   }
 }
 
