@@ -74,24 +74,24 @@ header h1 {
 }
 
 a:visited {
-  color: #3094b3;
+  color: #de6600;
   text-decoration: underline;
 }
 
 a:hover,
 a:focus {
-  color: #e0a038;
+  color: #fea334;
   text-decoration: none;
 }
 
 a:active {
-  color: #e0a038;
+  color: #de6600;
   text-decoration: none;
 }
 
 .button {
   color: white;
-  background-color: #c05735;
+  background-image: -webkit-linear-gradient(#f57200, #de6600);
   font-weight: 400;
   padding: 6px;
   border-radius: 3px;
@@ -101,8 +101,8 @@ a:active {
 }
 
 .button:hover {
-  background-color: transparent;
-  color: #242424;
+  background-image: -webkit-linear-gradient(#33a0c1, #2f93b1);
+  color: #ffffff;
   border-bottom: 2px solid white;
   transition: all ease-in-out 250ms;
 }
@@ -118,7 +118,7 @@ a:active {
 
 .resume-button {
   color: white;
-  background-color: #c05735;
+  background-image: -webkit-linear-gradient(#f57200, #de6600);
   font-weight: 400;
   padding: 6px;
   border-radius: 3px;
@@ -131,7 +131,7 @@ a:active {
 
 .resume-button:hover,
 .resume-button:focus {
-  background-color: transparent;
+  background-image: -webkit-linear-gradient(#33a0c1, #2f93b1);
   color: white;
   border-bottom: 2px solid white;
   transition: all ease-in-out 250ms;
@@ -211,7 +211,7 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #3094b3;
+  color: #de6600;
   text-decoration: none;
 }
 
@@ -263,7 +263,7 @@ footer {
 footer h2 {
   font-family: "Abril Fatface", cursive;
   font-size: 3em;
-  color: #d9603f;
+  color: #de6600;
   margin-top: 0;
   margin-bottom: 15px;
   text-align: center;
@@ -376,7 +376,7 @@ h5 {
 
 .interact-link {
   color: white;
-  background-color: #c05735;
+  background-image: -webkit-linear-gradient(#f57200, #de6600);
   font-weight: 400;
   padding: 6px;
   border-radius: 3px;
@@ -391,7 +391,7 @@ h5 {
 
 .interact-link:hover,
 .interact-link:focus {
-  background-color: transparent;
+  background-image: -webkit-linear-gradient(#33a0c1, #2f93b1);
   color: white;
   border-bottom: 2px solid white;
   transition: all ease-in-out 250ms;
@@ -500,7 +500,7 @@ h5 {
     display: block;
     height: 0.4em;
     width: 0%;
-    background-color: #e0a038;
+    background-color: #ebd9c8;
     margin-left: 12px;
     transition: all ease-in-out 500ms;
   }
